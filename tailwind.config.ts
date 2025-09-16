@@ -18,7 +18,25 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				montserrat: ['Montserrat', 'sans-serif'],
+				inter: ['Inter', 'sans-serif']
+			},
 			colors: {
+				// Custom Slovak tender portal colors
+				navy: {
+					500: '#0B2F6E'
+				},
+				charcoal: {
+					500: '#1F2933'
+				},
+				light: {
+					100: '#F6F7F9'
+				},
+				slovak: {
+					red: '#C1272D',
+					gold: '#B08B4F'
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
